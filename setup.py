@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='cemir-print',
-    version='202231003.1',
+    version='202231005.2',
     description='A colorful printing library for Python',
     long_description=long_description,
     long_description_content_type='text/markdown',

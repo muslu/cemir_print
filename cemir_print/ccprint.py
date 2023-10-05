@@ -49,12 +49,3 @@ def ccprint(data, depth=0):
     except:  ## typeerror vs oluşursa direk print
         print(data)
 
-
-ccprint({
-    "name": "muslu yüksektepe",
-    "age": 30,
-    "city": "İstanbul",
-    "whereareyoufrom": "Türkiye",
-    "are_you_ok": True,
-    "listem": [1, 3.14, 3, "ceylan", "emir", "muslu", "cem", {"age": 35, "number":{"float": 35.58}}]
-})
